@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-inventory
+  description: |
+    Reusable inventory domain library in Go: items, stock levels and
+    movement events. Designed for warehouse, endowment and supply
+    scenarios shared across companies.
+  tags: [go, library, inventory, domain]
+  annotations:
+    github.com/project-slug: nick130920/go-inventory
+    backstage.io/source-location: url:https://github.com/nick130920/go-inventory
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/nick130920/go-inventory
+      title: Source
+      icon: github
+spec:
+  type: library
+  lifecycle: experimental
+  owner: platform-team
+  system: ops-platform
