@@ -1,0 +1,12 @@
+site_name: 'go-inventory'
+site_description: 'Reusable Go inventory domain library: items, stock, movements.'
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Usage:
+      - Item service: usage-item.md
+      - Stock & movements: usage-movements.md
+
+plugins:
+  - techdocs-core
